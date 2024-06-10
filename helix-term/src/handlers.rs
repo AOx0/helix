@@ -32,6 +32,6 @@ pub fn setup(config: Arc<ArcSwap<Config>>) -> Handlers {
 
     completion::register_hooks(&handlers);
     signature_help::register_hooks(&handlers);
-    diagnostics::register_hooks(&handlers);
+    auto_save::register_hooks(&handlers);
     handlers
 }
