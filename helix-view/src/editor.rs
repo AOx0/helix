@@ -3,7 +3,6 @@ use crate::{
     document::{
         DocumentOpenError, DocumentSavedEventFuture, DocumentSavedEventResult, Mode, SavePoint,
     },
-    annotations::diagnostics::{DiagnosticFilter, InlineDiagnosticsConfig},
     graphics::{CursorKind, Rect},
     handlers::Handlers,
     info::Info,
